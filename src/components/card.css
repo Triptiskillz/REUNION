@@ -1,0 +1,121 @@
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px 10px;
+}
+
+
+.row {
+    margin: 0 -5px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 8px;
+}
+.card .postion{
+    position: relative;
+}
+.card  .postion img {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    max-height: 260px;
+    min-height: 260px;
+}
+.card   .postion .newtittle{
+   height: 30px ;
+   width: 30%;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   color: #fff;
+   padding: 4px;
+   border-radius: 8px;
+   background-color: #7861b4;
+}
+.card   .postion .newtittle i{
+    margin:0  5px 0 5px;
+}
+.card .context {
+    padding: 20px;
+    /* display: flex; */
+
+}
+
+.card .context .month ul li {
+    list-style-type: none;
+    display: inline-block;
+    /* position: relative; */
+
+}
+
+.card .context .month ul li p {
+    font-size: 25px;
+    color: #7861b4;
+    font-weight: 500;
+}
+
+.card .context .month ul li p span {
+    font-size: 13px;
+    color: rgb(116, 115, 115);
+}
+
+.card .context .month .btn {
+    border: 1px solid #ddd;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 4px;
+    margin-left: 150px;
+    /* position: absolute;
+   bottom: 0;
+   right: 0; */
+
+}
+
+.card .context .month .btn i {
+    font-size: 19px;
+    color: #7861b4;
+}
+.card .context .name{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+.card .context .ders{
+    font-size: 14px;
+    color: rgb(136, 136, 136);
+    font-weight: 400;
+    border-bottom:1px solid  rgb(234, 234, 234);;
+}
+.card .context .bottom p{
+    display: inline-block;
+    padding: 8px;
+    color: rgb(136, 136, 136);
+}
+.card .context .bottom p i{
+    color: #7861b4;
+    margin-right: 3px;
+}

@@ -1,0 +1,47 @@
+
+.filter{
+    width: 100%;
+    background-color: #fff;
+    overflow: auto;
+    box-shadow: inset;
+    padding: 12px;
+}
+.filter a{
+    float: left;
+   
+    color: #000;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    width: 20%; /* Four links of equal widths */
+    text-align: center;
+    
+}
+.filter a label{
+    color: rgb(146, 143, 143);
+    font-size: small;
+    float: left;
+    padding-left: 25px;
+}
+.filter .line{
+    border-right:1px solid #ddd ;
+}
+.filter .input,select{
+    border:none;
+    outline:none;
+    width: 80%;
+}
+.filter .btn{
+    background-color: #7861b4;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    border: 2px solid #7861b4;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 0 0 4px;
+    cursor: pointer;
+}
